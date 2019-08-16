@@ -20,6 +20,7 @@ time.sleep(2)
 
 browser.find_element_by_id("btn-logon").click()
 time.sleep(10)
+time.sleep(10)
 
 browser.find_element_by_xpath("//*[@id=\"menu_1\"]").click()
 time.sleep(10)
