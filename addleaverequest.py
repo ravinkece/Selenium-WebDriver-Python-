@@ -7,6 +7,7 @@ from selenium.webdriver.common.keys import Keys
 browser = webdriver.Chrome('C:\Python27\chromedriver.exe')
 browser.get("https://sfid.dataon.com/sf6/")
 time.sleep(10)
+time.sleep(4)
 
 browser.find_element_by_id("txtAccount").send_keys("dataon")
 time.sleep(2)
