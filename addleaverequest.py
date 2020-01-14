@@ -16,7 +16,7 @@ browser.find_element_by_id("txtUserName").send_keys("gordon")
 time.sleep(2)
 
 browser.find_element_by_id("txtPassword").send_keys("password123")
-time.sleep(2)
+time.sleep(1)
 
 browser.find_element_by_id("btn-logon").click()
 time.sleep(10)
